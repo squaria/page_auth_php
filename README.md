@@ -1,3 +1,1 @@
-# Projet de stage
-
-Petit projet blablabla...
+# Projet de page de connexion en php
