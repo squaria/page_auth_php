@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+html {
+    font-size: 16px; /* valeur facteur pour le rem */
+}
+
+body {
+    background-image: url(images/background.png);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.box-login {
+    background-color: white;
+    font-family: Raleway, sans-serif;
+    width: 400px;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    padding: 4rem 4rem 2.8rem 4rem;
+    box-shadow: 0 0 1em rgb(14, 54, 70);
+}
+
+.box-login__input {
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(240, 240, 240);
+    font-size: 16px;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: calc(100% - 10px - 25px);
+    transition: border 500ms;
+    margin-bottom: 1rem;
+}
+
+.box-login__input:hover {
+    border: 2px solid rgb(86, 153, 255);
+}
+
+
+.box-login__error {
+    background-color: #dc667e;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    margin-top: 1rem;
+    transition: opacity 300ms;
+}
+
+.box-login__error.hidden {
+    opacity: 0;
+}
+
+.box-login__submit {
+    background-color: rgb(90, 181, 218);
+    transition: background-color ease 300ms;
+    color: white;
+    border: 0;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box-login__submit:hover {
+    background-color: rgb(82, 162, 194);
+}
+
+
+
+/*
+-------------------------
+*/
+
+.btn {
+    width: 25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
