@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form class="box-login" method="post" action="check.php" enctype='multipart/form-data'>
+    <form class="box-login" method="post" action="../BACK/check.php" enctype='multipart/form-data'>
         <input class="box-login__input" name="name" maxlength=32 type="text" placeholder="username"/>
         <input class="box-login__input" name="pass" maxlength=32 type="password" placeholder="password"/>
 
